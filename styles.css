@@ -89,9 +89,56 @@
 }
 
 .block {
-  background-color: gray;
+  background-color: black;
   color: white;
   text-align: center;
   padding: 30px 0;
   margin-top: 150px;
+}
+
+.secondsection1 {
+  display: flex;
+  justify-content: flex-end;
+  border-bottom: gray solid 1px;
+}
+
+.secondsection2 {
+  display: flex;
+  justify-content: flex-start;
+  border-bottom: gray solid 1px;
+}
+
+.container {
+  padding-left: 8%;
+}
+
+.tag {
+  width: 4%;
+  text-align: center;
+  background-color: green;
+  color: white;
+  padding-top: 50px;
+}
+
+.container-title {
+  padding: 40px 0 15px;
+  color: green;
+}
+
+.container-subtitle {
+  color: green;
+}
+
+.container-description {
+  width: 70%;
+  padding: 40px 0;
+}
+
+.container-btn {
+  border: solid;
+  text-align: center;
+  width: 20%;
+  padding: 10px 0;
+  background-color: orangered;
+  color: white;
 }

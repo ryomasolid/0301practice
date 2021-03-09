@@ -65,7 +65,7 @@
   border-top: solid 1px;
   border-bottom: solid 1px;
   padding: 25px 0;
-  margin: 50px 0;
+  margin-bottom: 100px;
 }
 
 .little-img {
@@ -73,6 +73,7 @@
   margin: auto;
   display: flex;
   justify-content: center;
+  padding-bottom: 100px;
 }
 
 .article-section {
@@ -93,7 +94,6 @@
   color: white;
   text-align: center;
   padding: 30px 0;
-  margin-top: 150px;
 }
 
 .secondsection1 {
@@ -140,5 +140,92 @@
   width: 20%;
   padding: 10px 0;
   background-color: orangered;
+  color: white;
+}
+/* サービス紹介 */
+.service-section {
+  display: flex;
+}
+
+.service-section :first-child {
+  border-right: solid gray 0.5px;
+}
+
+.service-block {
+  width: 50%;
+  padding: 90px 0;
+  text-align: center;
+}
+
+.service-title {
+  color: #47b39d;
+  font-size: 40px;
+}
+
+.service-subtitle {
+  color: #47b39d;
+  padding: 20px 0;
+}
+
+.service-btn {
+  border: solid;
+  text-align: center;
+  width: 30%;
+  margin: auto;
+  padding: 10px 0;
+  background-color: #47b39d;
+  color: white;
+}
+
+.company-container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.company-block {
+  width: 100%;
+  flex-direction: row;
+}
+
+.company-block :first-child {
+  border-top: solid gray 0.5px;
+}
+
+.company-section {
+  display: flex;
+  width: 40%;
+  margin: auto;
+  padding: 15px 0;
+  border-bottom: solid gray 0.5px;
+}
+
+.company-section p {
+  font-size: 20px;
+}
+
+.company-text {
+  width: 30%;
+  margin-left: 5%;
+}
+
+.company-subtext {
+  width: 70%;
+}
+
+.inquiry-background {
+  background-color: #47b39d;
+  padding: 30px 0;
+}
+
+.inquiry-background p {
+  color: white;
+}
+
+.inquiry-btn {
+  text-align: center;
+  width: 10%;
+  padding: 10px 0;
+  background-color: black;
   color: white;
 }
